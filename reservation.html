@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <title>Reservation - Family Restaurant</title>
+    <style>
+        body{
+            margin:0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ffecd2, #fcb69f);
+        }
+
+        .container{
+            width:50%;
+            margin:50px auto;
+            background:white;
+            padding:30px;
+            border-radius:15px;
+            box-shadow:0 0 15px rgba(0,0,0,0.3);
+        }
+
+        h1{
+            text-align:center;
+            color:#d35400;
+            margin-bottom:20px;
+        }
+
+        label{
+            font-weight:bold;
+            color:#333;
+        }
+
+        input, select, textarea{
+            width:100%;
+            padding:10px;
+            margin-top:5px;
+            margin-bottom:15px;
+            border:2px solid #f39c12;
+            border-radius:5px;
+            box-sizing:border-box;
+        }
+
+        textarea{
+            resize:none;
+        }
+
+        .btn{
+            width:100%;
+            padding:12px;
+            background:#e67e22;
+            color:white;
+            border:none;
+            border-radius:5px;
+            font-size:18px;
+            cursor:pointer;
+        }
+
+        .btn:hover{
+            background:#d35400;
+        }
+
+        .heading{
+            text-align:center;
+            color:#555;
+            margin-bottom:25px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🍽 Family Restaurant</h1>
+        <p class="heading">Reserve Your Table Now</p>
+
+        <form>
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter Your Name">
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter Your Email">
+
+            <label>Mobile Number</label>
+            <input type="tel" placeholder="Enter Mobile Number">
+
+            <label>Reservation Date</label>
+            <input type="date">
+
+            <label>Reservation Time</label>
+            <input type="time">
+
+            <label>Number of Guests</label>
+            <select>
+                <option>1 Person</option>
+                <option>2 Persons</option>
+                <option>4 Persons</option>
+                <option>6 Persons</option>
+                <option>8+ Persons</option>
+            </select>
+
+            <label>Special Request</label>
+            <textarea rows="4" placeholder="Any Special Request"></textarea>
+
+            <button type="submit" class="btn">
+                Book Table
+            </button>
+        </form>
+    </div>
+
+</body>
+</html>
+</body>
+</html>
